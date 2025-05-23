@@ -2,7 +2,7 @@ import java.io.IOException;
 import java.time.LocalDate;
 import java.util.HashMap;
 import java.util.Map;
-
+// github link към проекта :   https://github.com/GPalazov/ProjectStore
 public class Main {
     public static void main(String[] args) {
         try {
@@ -19,7 +19,7 @@ public class Main {
 
             Map<Item, Integer> itemsToBuy = new HashMap<>();
             itemsToBuy.put(bread, 5);
-            itemsToBuy.put(soap, 1);
+            itemsToBuy.put(soap, 3);
             itemsToBuy.put(chainsaw,4);
 
             System.out.println("Извършване на продажба:");
